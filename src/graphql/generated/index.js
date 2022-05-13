@@ -14,7 +14,7 @@ module.exports.version = version
 module.exports.createClient = function (options) {
   options = options || {}
   var optionsCopy = {
-    url: 'https://reorgs.staging.dipdup.net/v1/graphql',
+    url: 'https://reorg-stats.dipdup.net/v1/graphql',
     queryRoot: typeMap.Query,
     mutationRoot: typeMap.Mutation,
     subscriptionRoot: typeMap.Subscription,
